@@ -6,8 +6,8 @@ function run() {
      // write your code here
      const myArr = (input);
      Array.from(myArr);
-     let goodValues = myArr.filter(myArr=> true)
-              out = goodValues
+     const goodValues = myArr.filter(myArr=> myArr ===true)
+          out = goodValues
  /**/
      output.innerText = "[" + out + "]";
 }
