@@ -6,7 +6,8 @@ function run() {
  /**/
      // write your code here
        myArray.push(input)
-       for(let i = 0; i<myArray.length; i++){
+       
+       for (let i = 0; i<myArray.length; i++) {
             out += "Element " + i + " = " + myArray[i] +"\n"
        }
      /**/
