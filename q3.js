@@ -13,10 +13,9 @@ function run() {
            numArr.splice(i, 0, '-');
          }
        }
-       
-       console.log(numArr.join(''));
-     // out = input + 5;
+
+     out = numArr.join('');
  
  /**/
-     // output.innerText = out;
+     output.innerText = out;
  }

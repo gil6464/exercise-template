@@ -6,12 +6,12 @@ function run() {
     // write your code here
        const test = (input).value;
         if (input[0] === "[" && input[input.length-1] === "]" ) {
-             alert (true);
+             out = (true);
         } else { 
-             alert (false);
+             out = (false);
         }
     // out = input + 5;
 
 /**/
-    // output.innerText = out;
+    output.innerText = out;
 }

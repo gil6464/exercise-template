@@ -4,11 +4,12 @@ function run() {
      let out = "";
  /**/
      // write your code here
-       const myArr = (document.getElementById("input2").value).split(",");
-       const untilNum = Number(input);
-       const newList = myArr.slice(0 , untilNum) ;
-                   
-       out = newList + "]";
+        const myNum = (input);
+        const numbersToArr = eval(myNum);
+        
+        const minToMax = numbersToArr.sort((x,y)=> x-y);
+
+     out = minToMax;
  
  /**/
      output.innerText = out;
