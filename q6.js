@@ -1,17 +1,14 @@
+let myArray = [];
 function run() {
      const input = document.getElementById("input").value;
      const output = document.getElementById("output");
      let out = "";
  /**/
      // write your code here
-        const myNum = input;
-        const numbersToArr = eval(myNum);
-        
-        const minToMax = numbersToArr.sort((x,y)=> x-y);
-
-     out = minToMax;
- 
- /**/
-
+       myArray.push(input)
+       for(let i = 0; i<myArray.length; i++){
+            out += "Element " + i + " = " + myArray[i] +"\n"
+       }
+     /**/
      output.innerText = out;
-} 
+ }

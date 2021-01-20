@@ -4,11 +4,11 @@ function run() {
     let out = "";
 /**/
     // write your code here
-       const test = (input).value;
+       const test = input.value;
         if (input[0] === "[" && input[input.length-1] === "]" ) {
-             out = (true);
+             out = true;
         } else { 
-             out = (false);
+             out = false;
         }
     // out = input + 5;
 
