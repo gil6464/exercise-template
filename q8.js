@@ -4,12 +4,13 @@ function run() {
      let out = "";
  /**/
      // write your code here
+     // bounus qwestion, didnt solve until the end, also need more input so i used the second one.
      const newArray = JSON.parse(input);
-     console.log(newArray);
      let reqArrIndex = document.getElementById("input2"); 
      let findArrIndex = Number(reqArrIndex);
-     console.log(findArrIndex)
      console.log(newArray.indexOf(findArrIndex));
+     
+     
  /**/
      output.innerText = out;
  }
