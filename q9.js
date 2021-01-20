@@ -7,13 +7,13 @@ function run() {
           const originArr = JSON.parse(input);
           out = [];
           originArr.sort();
+
           for (i = 0; i < originArr.length -1 ; i++){
-               if (originArr[i] === originArr[i+1] &&
-                     originArr[i] !==originArr[i+2]){
-                    out.push(originArr[i])
-                     }
-                    }
- 
+            if (originArr[i] === originArr[i+1] &&
+                 originArr[i] !==originArr[i+2]){
+                   out.push(originArr[i])
+               }
+          }
  /**/
-     output.innerText = "Duplicate values : "+out ;
+     output.innerText = "Duplicate values : " + out ;
  }
