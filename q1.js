@@ -9,9 +9,8 @@ function run() {
              out = true;
         } else { 
              out = false;
-        }
-    // out = input + 5;
+        };
+        output.innerText = out;
+};
 
 /**/
-    output.innerText = out;
-}

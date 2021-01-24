@@ -7,15 +7,15 @@ function run() {
        let myArray = JSON.parse(input); 
        const lengthOfArr= myArray.length;
 
-          for (let i = 0; i < lengthOfArr ; i++) {
-               out = out + "row" + i + "\n";
+        for (let i = 0; i < lengthOfArr ; i++) {
+          out = out + "row" + i + "\n";
 
-                let lengthOfInArr = myArray[i].length;
+          let lengthOfInArr = myArray[i].length;
 
-          for(let j=0;  j < lengthOfInArr ; j++ ) {
-               out = out +  myArray[i][j] + "\n" ;                    
-               }
-          }
+        for(let j=0;  j < lengthOfInArr ; j++ ) {
+          out = out +  myArray[i][j] + "\n" ;                    
+         }
+        };
+          output.innerText = out;
+};
  /**/
-     output.innerText = out;
- }

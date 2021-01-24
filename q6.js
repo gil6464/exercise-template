@@ -10,6 +10,6 @@ function run() {
        for (let i = 0; i<myArray.length; i++) {
             out += "Element " + i + " = " + myArray[i] +"\n"
        }
+       output.innerText = out;
+};
      /**/
-     output.innerText = out;
- }

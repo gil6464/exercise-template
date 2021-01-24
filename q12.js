@@ -8,13 +8,10 @@ function run() {
      const array = eval(input2);
      let list = [];
      
-     for (i = 0; i < array.length; i++){
-         list.push(array[i][input])
-         console.log(list);
-     }
-
-     out = list;
-
+     for (prop of array) {
+         list.push(prop[input])
+     };
+         out = list;
+         output.innerText = out;
+};
  /**/
-     output.innerText = out;
-    }

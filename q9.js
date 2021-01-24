@@ -8,12 +8,13 @@ function run() {
           out = [];
           originArr.sort();
 
-          for (i = 0; i < originArr.length -1 ; i++){
+          for (i = 0; i < originArr.length -1 ; i++) {
             if (originArr[i] === originArr[i+1] &&
-                 originArr[i] !==originArr[i+2]){
-                   out.push(originArr[i])
-               }
-          }
+                 originArr[i] !==originArr[i+2]) {
+
+                 out.push(originArr[i])
+            }
+          };
+          output.innerText = "Duplicate values : " + out ;
+};
  /**/
-     output.innerText = "Duplicate values : " + out ;
- }

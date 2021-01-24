@@ -17,11 +17,11 @@ function run() {
         if (isNaN(Number(goodValue[i]))) {
             goodValue.splice(i, 1);
         }
-    }
-    
-    out = goodValue
-    /**/
+    };
+    out = goodValue;
     output.innerText = "[" + out + "]";
-}
+};
+    
+    /**/
 
 

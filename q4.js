@@ -7,11 +7,9 @@ function run() {
         const myNum = input;
         const numbersToArr = eval(myNum);
         
-        const minToMax = numbersToArr.sort((x,y)=> x-y);
+        const minToMax = numbersToArr.sort((x, y) => x - y);
 
-     out = minToMax;
- 
+       out = minToMax;
+       output.innerText = out;
+} ;
  /**/
-
-     output.innerText = out;
-} 

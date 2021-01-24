@@ -12,11 +12,8 @@ function run() {
       secondArr.sort();
 
      const bothArr = firstArr.concat(secondArr);
-      out = [...new Set(bothArr)];
-
-
-          
+      out = [...new Set(bothArr)];     
  
+    output.innerText = "[" + out + "]";
+};
  /**/
-     output.innerText = "[" + out + "]";
- }

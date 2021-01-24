@@ -12,10 +12,10 @@ function run() {
          if (numArr[i-1] % 2 === 0 && numArr[i] % 2 === 0) {
            numArr.splice(i, 0, '-');
          }
-       }
+       };
 
      out = numArr.join('');
  
  /**/
      output.innerText = out;
- }
+ };

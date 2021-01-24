@@ -11,5 +11,5 @@ function run() {
        out = newList + "]";
  
  /**/
-     output.innerText = out;
- }
+       output.innerText = out;
+ };
